@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9AC707AF2B9BA14C0098E3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC707AE2B9BA14C0098E3BC /* Assets.xcassets */; };
+		9AC707B22B9BA14C0098E3BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AC707B12B9BA14C0098E3BC /* Preview Assets.xcassets */; };
+		9AC707C32B9BA6830098E3BC /* ClashGrotesk-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC707BB2B9BA1E40098E3BC /* ClashGrotesk-Semibold.otf */; };
+		9AC707C42B9BA6860098E3BC /* ClashGrotesk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC707BA2B9BA1E40098E3BC /* ClashGrotesk-Regular.otf */; };
+		9AC707C52B9BA6890098E3BC /* ClashGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AC707B92B9BA1E30098E3BC /* ClashGrotesk-Bold.otf */; };
+		9ADE9AA62BCF04B50000DFFB /* UserControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9A9B2BCF04B30000DFFB /* UserControls.swift */; };
+		9ADE9AA72BCF04B50000DFFB /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9A9C2BCF04B40000DFFB /* Header.swift */; };
+		9ADE9AA82BCF04B50000DFFB /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9A9D2BCF04B40000DFFB /* PrivacyView.swift */; };
+		9ADE9AA92BCF04B50000DFFB /* EarningsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9A9E2BCF04B40000DFFB /* EarningsView.swift */; };
+		9ADE9AAA2BCF04B50000DFFB /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9A9F2BCF04B40000DFFB /* InfoView.swift */; };
+		9ADE9AAB2BCF04B50000DFFB /* HeaderNoProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA02BCF04B40000DFFB /* HeaderNoProfile.swift */; };
+		9ADE9AAC2BCF04B50000DFFB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA12BCF04B40000DFFB /* ProfileView.swift */; };
+		9ADE9AAD2BCF04B50000DFFB /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA22BCF04B40000DFFB /* RegisterView.swift */; };
+		9ADE9AAE2BCF04B50000DFFB /* Charity_ChampionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA32BCF04B40000DFFB /* Charity_ChampionApp.swift */; };
+		9ADE9AAF2BCF04B50000DFFB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA42BCF04B40000DFFB /* HomeView.swift */; };
+		9ADE9AB02BCF04B50000DFFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE9AA52BCF04B50000DFFB /* ContentView.swift */; };
+		F2206ACE5FC55A050AC21303 /* Pods_Charity_Champion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2839821E55D09DD5E4A3AFA /* Pods_Charity_Champion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4087DF633170BA2FA3A15862 /* Pods-Charity Champion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity Champion.debug.xcconfig"; path = "Target Support Files/Pods-Charity Champion/Pods-Charity Champion.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC707A72B9BA14A0098E3BC /* Charity Champion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charity Champion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC707AE2B9BA14C0098E3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AC707B12B9BA14C0098E3BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9AC707B92B9BA1E30098E3BC /* ClashGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		9AC707BA2B9BA1E40098E3BC /* ClashGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashGrotesk-Regular.otf"; sourceTree = "<group>"; };
+		9AC707BB2B9BA1E40098E3BC /* ClashGrotesk-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ClashGrotesk-Semibold.otf"; sourceTree = "<group>"; };
+		9AC707BC2B9BA2430098E3BC /* Charity-Champion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Charity-Champion-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9ADE9A9A2BCF04B30000DFFB /* Charity Champion-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Charity Champion-Bridging-Header.h"; sourceTree = "<group>"; };
+		9ADE9A9B2BCF04B30000DFFB /* UserControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserControls.swift; sourceTree = "<group>"; };
+		9ADE9A9C2BCF04B40000DFFB /* Header.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		9ADE9A9D2BCF04B40000DFFB /* PrivacyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		9ADE9A9E2BCF04B40000DFFB /* EarningsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EarningsView.swift; sourceTree = "<group>"; };
+		9ADE9A9F2BCF04B40000DFFB /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		9ADE9AA02BCF04B40000DFFB /* HeaderNoProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderNoProfile.swift; sourceTree = "<group>"; };
+		9ADE9AA12BCF04B40000DFFB /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		9ADE9AA22BCF04B40000DFFB /* RegisterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		9ADE9AA32BCF04B40000DFFB /* Charity_ChampionApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charity_ChampionApp.swift; sourceTree = "<group>"; };
+		9ADE9AA42BCF04B40000DFFB /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9ADE9AA52BCF04B50000DFFB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2839821E55D09DD5E4A3AFA /* Pods_Charity_Champion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charity_Champion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68DAB8EEFE4D4EA1EC6DCA0 /* Pods-Charity Champion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charity Champion.release.xcconfig"; path = "Target Support Files/Pods-Charity Champion/Pods-Charity Champion.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC707A42B9BA14A0098E3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2206ACE5FC55A050AC21303 /* Pods_Charity_Champion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0A14C59414D38794E2DA23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2839821E55D09DD5E4A3AFA /* Pods_Charity_Champion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59BC8380B00B48FA6673D22C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4087DF633170BA2FA3A15862 /* Pods-Charity Champion.debug.xcconfig */,
+				F68DAB8EEFE4D4EA1EC6DCA0 /* Pods-Charity Champion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AC7079E2B9BA14A0098E3BC = {
+			isa = PBXGroup;
+			children = (
+				9AC707A92B9BA14A0098E3BC /* Charity Champion */,
+				9AC707A82B9BA14A0098E3BC /* Products */,
+				59BC8380B00B48FA6673D22C /* Pods */,
+				1D0A14C59414D38794E2DA23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC707A82B9BA14A0098E3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC707A72B9BA14A0098E3BC /* Charity Champion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC707A92B9BA14A0098E3BC /* Charity Champion */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE9AA32BCF04B40000DFFB /* Charity_ChampionApp.swift */,
+				9ADE9AA52BCF04B50000DFFB /* ContentView.swift */,
+				9ADE9A9E2BCF04B40000DFFB /* EarningsView.swift */,
+				9ADE9A9C2BCF04B40000DFFB /* Header.swift */,
+				9ADE9AA02BCF04B40000DFFB /* HeaderNoProfile.swift */,
+				9ADE9AA42BCF04B40000DFFB /* HomeView.swift */,
+				9ADE9A9F2BCF04B40000DFFB /* InfoView.swift */,
+				9ADE9A9D2BCF04B40000DFFB /* PrivacyView.swift */,
+				9ADE9AA12BCF04B40000DFFB /* ProfileView.swift */,
+				9ADE9AA22BCF04B40000DFFB /* RegisterView.swift */,
+				9ADE9A9B2BCF04B30000DFFB /* UserControls.swift */,
+				9AC707BC2B9BA2430098E3BC /* Charity-Champion-Info.plist */,
+				9AC707B82B9BA1B10098E3BC /* Font */,
+				9AC707AE2B9BA14C0098E3BC /* Assets.xcassets */,
+				9AC707B02B9BA14C0098E3BC /* Preview Content */,
+				9ADE9A9A2BCF04B30000DFFB /* Charity Champion-Bridging-Header.h */,
+			);
+			path = "Charity Champion";
+			sourceTree = "<group>";
+		};
+		9AC707B02B9BA14C0098E3BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9AC707B12B9BA14C0098E3BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9AC707B82B9BA1B10098E3BC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9AC707B92B9BA1E30098E3BC /* ClashGrotesk-Bold.otf */,
+				9AC707BA2B9BA1E40098E3BC /* ClashGrotesk-Regular.otf */,
+				9AC707BB2B9BA1E40098E3BC /* ClashGrotesk-Semibold.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC707A62B9BA14A0098E3BC /* Charity Champion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC707B52B9BA14C0098E3BC /* Build configuration list for PBXNativeTarget "Charity Champion" */;
+			buildPhases = (
+				DBE7AEBD0C82688CFDFB837C /* [CP] Check Pods Manifest.lock */,
+				9AC707A32B9BA14A0098E3BC /* Sources */,
+				9AC707A42B9BA14A0098E3BC /* Frameworks */,
+				9AC707A52B9BA14A0098E3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Charity Champion";
+			productName = "Charity Champion";
+			productReference = 9AC707A72B9BA14A0098E3BC /* Charity Champion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC7079F2B9BA14A0098E3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					9AC707A62B9BA14A0098E3BC = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = 9AC707A22B9BA14A0098E3BC /* Build configuration list for PBXProject "Charity Champion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC7079E2B9BA14A0098E3BC;
+			productRefGroup = 9AC707A82B9BA14A0098E3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC707A62B9BA14A0098E3BC /* Charity Champion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC707A52B9BA14A0098E3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AC707C42B9BA6860098E3BC /* ClashGrotesk-Regular.otf in Resources */,
+				9AC707B22B9BA14C0098E3BC /* Preview Assets.xcassets in Resources */,
+				9AC707C52B9BA6890098E3BC /* ClashGrotesk-Bold.otf in Resources */,
+				9AC707AF2B9BA14C0098E3BC /* Assets.xcassets in Resources */,
+				9AC707C32B9BA6830098E3BC /* ClashGrotesk-Semibold.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBE7AEBD0C82688CFDFB837C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Charity Champion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC707A32B9BA14A0098E3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADE9AA72BCF04B50000DFFB /* Header.swift in Sources */,
+				9ADE9AB02BCF04B50000DFFB /* ContentView.swift in Sources */,
+				9ADE9AA62BCF04B50000DFFB /* UserControls.swift in Sources */,
+				9ADE9AA82BCF04B50000DFFB /* PrivacyView.swift in Sources */,
+				9ADE9AAF2BCF04B50000DFFB /* HomeView.swift in Sources */,
+				9ADE9AAB2BCF04B50000DFFB /* HeaderNoProfile.swift in Sources */,
+				9ADE9AAE2BCF04B50000DFFB /* Charity_ChampionApp.swift in Sources */,
+				9ADE9AAA2BCF04B50000DFFB /* InfoView.swift in Sources */,
+				9ADE9AAD2BCF04B50000DFFB /* RegisterView.swift in Sources */,
+				9ADE9AAC2BCF04B50000DFFB /* ProfileView.swift in Sources */,
+				9ADE9AA92BCF04B50000DFFB /* EarningsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AC707B32B9BA14C0098E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC707B42B9BA14C0098E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC707B62B9BA14C0098E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4087DF633170BA2FA3A15862 /* Pods-Charity Champion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Charity Champion/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Charity-Champion-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Charity Champion";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vahangev.charitychampion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Charity Champion/Charity Champion-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC707B72B9BA14C0098E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68DAB8EEFE4D4EA1EC6DCA0 /* Pods-Charity Champion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Charity Champion/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Charity-Champion-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Charity Champion";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vahangev.charitychampion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Charity Champion/Charity Champion-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC707A22B9BA14A0098E3BC /* Build configuration list for PBXProject "Charity Champion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC707B32B9BA14C0098E3BC /* Debug */,
+				9AC707B42B9BA14C0098E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC707B52B9BA14C0098E3BC /* Build configuration list for PBXNativeTarget "Charity Champion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC707B62B9BA14C0098E3BC /* Debug */,
+				9AC707B72B9BA14C0098E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC7079F2B9BA14A0098E3BC /* Project object */;
+}
